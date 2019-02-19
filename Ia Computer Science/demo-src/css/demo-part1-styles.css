@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+    position: relative;
+    font-family:'PT Mono', monospace;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.text-white {
+    color:#ffffff;
+}
+
+/* Navbar */
+.navbar-brand {
+    padding:10px;
+}
+
+.navbar-brand h1 {
+    font-size:24px;
+    font-family:'Permanent Marker', cursive;
+    margin:0;
+}
+
+/* Home Section */
+#home-section {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    background: url('../../img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Reservation Section */
+#reservation-section {
+    background: #eeeeee;
+}
+
+.reservation-section {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+/* Small Screens */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Screens */
+@media only screen and (min-width : 992px) {
+    #home-section {
+        max-height:700px;
+    }
+}
+
+/* Large Screens */
+@media only screen and (min-width : 1200px) {
+}
